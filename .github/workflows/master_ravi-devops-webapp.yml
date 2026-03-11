@@ -54,6 +54,7 @@ jobs:
           client-id: 'cb3afb81-8efd-4fd8-8143-2e8b53f76533'
           tenant-id: '3d103945-2f6d-498a-ab84-fb8ff577aa42'
           subscription-id: '2f03c8af-e95d-49db-bd13-e691e5ced614'
+          client-secret: 'HZ~8Q~xo_TFtnDk3Q8HTWfVZ6GU18MRqPX2YCbFd'
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -64,3 +65,4 @@ jobs:
           package: .
 
           
+
