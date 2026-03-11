@@ -51,9 +51,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_6EBBC5983C7940CFAAE577D72F8E1B32 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_03DE1ACF015149CBADA098E2C8FBB48A }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_948219D66AA945AB93B0E72879087464 }}
+          client-id: 'cb3afb81-8efd-4fd8-8143-2e8b53f76533'
+          tenant-id: '3d103945-2f6d-498a-ab84-fb8ff577aa42'
+          subscription-id: '2f03c8af-e95d-49db-bd13-e691e5ced614'
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -62,4 +62,5 @@ jobs:
           app-name: 'ravi-devops-webapp'
           slot-name: 'Production'
           package: .
+
           
